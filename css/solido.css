@@ -371,7 +371,7 @@ html, body {
 .slider-logo a, .buy-logo a{text-decoration: none; color: #fff;}
 .main-title{
 	color: #fff;
-	height: 385px;
+	height: 500px;
 	overflow: hidden;
 	position: absolute;
 	top: 50%;
@@ -808,9 +808,8 @@ html, body {
 .p-image-second{margin-left: -448px;}
 .parallax.p-two{height: 625px;}
 .parallax.p-one{height: 680px;}
-.p-one{background: url("../img/parallax/parallax-01.jpg") repeat}
-.p-two{background: url("../img/parallax/parallax-02.png") repeat; background-color: #4cddf3;}
-.p-three{background: url("../img/parallax/parallax-01.jpg") repeat}
+.p-one{background: url("../img/photos/sophiavonblacha-paralax1.jpg")}
+
 .p-title-one{
 	font-weight: 400;
 	text-align: center;
