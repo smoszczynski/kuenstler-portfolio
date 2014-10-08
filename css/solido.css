@@ -808,7 +808,7 @@ html, body {
 .p-image-second{margin-left: -448px;}
 .parallax.p-two{height: 625px;}
 .parallax.p-one{height: 680px;}
-.p-one{background: url("../img/photos/sophiavonblacha-paralax1.jpg")}
+.p-one{background: url("../img/photos/sophiavonblacha-paralax1.jpg") repeat}
 
 .p-title-one{
 	font-weight: 400;
@@ -818,7 +818,7 @@ html, body {
 	color: #fff;
 	text-transform: uppercase;
 	opacity: 0.5;
-	padding-top: 140px;
+	padding-top: 40px;
 }
 .p-title-two{
 	font-weight: 300;
