@@ -1178,6 +1178,8 @@ html, body {
 .services{
 	position: relative;
 	overflow: visible;
+	/* my atribute */
+	height: 300px; 
 }
 .tooltip {
 	display: none;
