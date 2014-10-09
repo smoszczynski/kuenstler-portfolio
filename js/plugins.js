@@ -126,7 +126,8 @@ $(document).ready(function(){
 				var saturation = 100;
                 break;
         }	
-		var latlng = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		var latlng = new google.maps.LatLng(53.5571444,9.9951763); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		
 		var styles = [
 			{
 				"featureType": "landscape",
@@ -192,11 +193,11 @@ $(document).ready(function(){
 		 streetViewControl : false,
 		 draggable:drag,
 		 scrollwheel:false,
-		 panControl : false, zoom : 17,
+		 panControl : false, zoom : 11,
 		 styles: styles
 		};
 		var wpgmappitymap = new google.maps.Map(document.getElementById('wpgmappitymap'), options);
-		var point0 = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		var point0 = new google.maps.LatLng(53.5571444,9.9951763); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
 		var marker0= new google.maps.Marker({
 		 position : point0,
 		 map : wpgmappitymap,
