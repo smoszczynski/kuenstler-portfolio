@@ -109,11 +109,11 @@
                 <a class="jump-menu" title="Show navigation">Show navigation</a>
                 <ul>
                     <li class="current"><a href="#anchor1">home</a></li>
-                    <li><a href="#anchor2">about</a></li>
-                    <li><a href="#anchor3">team</a></li>
-                    <li><a href="#anchor4">services</a></li>
-                    <li><a href="#anchor5">portfolio</a></li>
-                    <li><a href="#anchor6">contact</a></li>
+                    <li><a href="#anchor2">über mich</a></li>
+                    <li><a href="#anchor3">leistungen</a></li>
+                    <li><a href="#anchor4">portfolio</a></li>
+                    <li><a href="#anchor5">shooting</a></li>
+                    <li><a href="#anchor6">Kontakt</a></li>
                 </ul>
             </nav>
             <nav class="menu">
@@ -121,10 +121,9 @@
                     <li class="current"><a href="#anchor1">home</a></li>
                     <li><a href="#anchor2">über mich</a></li>
                     <li><a href="#anchor3">leistungen</a></li>
-                    <!--<li><a href="#anchor4"></a></li>-->
                     <li><a href="#anchor4">portfolio</a></li>
-                    <!--<li><a href="#">blog</a></li>-->
-                    <li><a href="#anchor5">kontakt</a></li>
+                    <li><a href="#anchor5">shooting</a></li>
+                    <li><a href="#anchor6">kontakt</a></li>
                 </ul>
             </nav>
         </header>
@@ -166,7 +165,7 @@
 
                 </section>
                 <div style="color: #888888; font-size: 15px; float:left; padding-left: 80px; padding-bottom: 50px; display:block;">
-                        <p>Das kannst Du von mir erwarten:
+                        <p id="anchor3">Das kannst Du von mir erwarten:
 
                         <ul>
                             <li>kreative und authentische Aufnahmen, die genau auf Dich und das Thema des Shootings abgestimmt sind,
@@ -194,7 +193,7 @@
         </article>
 
 
-        <article id="anchor5" class="content dark" style="padding-bottom:0px;">
+        <article id="anchor4" class="content dark" style="padding-bottom:0px;">
         	<header class="title one" style="padding-top: 70px;">Fotoshootings - Beispiele</header>
             <div class="spacer"></div>
             <div class="title two"><p>Alle Shootings werden bei mir immer auf den Kunden persönlich zugeschnitten, <br>damit die Einzigartigkeit der Bilder gewährleistet wird. <br>Je nach gewünschtem Effekt, werden die Fotografien mit Natürlichkeit beschenkt <br>oder mit etwas Eleganz und Extravaganz bereichert.</p>
@@ -469,7 +468,7 @@
         </article>
 
 
-        <article id="anchor4" class="content dark" style="padding-bottom:20px; padding-top:20px;">
+        <article id="anchor5" class="content dark" style="padding-bottom:20px; padding-top:20px;">
             <header class="title one" style="padding-top: 70px;">Wie bekommst Du auch solche Bilder?</header>
             <div class="spacer"></div>
             <div class="title two"><p>In nur wenigen Schritten bis zur professionellen Bildern <br>von Sophia von Blacha Photography</p></div>
@@ -489,9 +488,9 @@
                         </div>-->
 
         <article class="content light">
-            <div class="full" style="height: 900px;">
+            <div class="full light" style="height: 100%;">
 
-                <section class="half" style="padding-left: 10px;">
+                <section class="half light" style="padding-left: 10px;">
 
                     <div class="testimonials" style="padding-top:20px; width:450px;">
                         <div class="avatar"><img src="img/photos/icon/close13.png" alt="img"><div style="margin-left:0px; margin-top:0px;"></div></div>
@@ -533,7 +532,7 @@
 
                 </section>
 
-                <section class="half">
+                <section class="half light">
 
                     <div class="testimonials" style="width:450px;">
                         <div class="avatar"><img src="img/photos/icon/make.png" alt="img"><div style="margin-left:0px; margin-top:20px;"></div></div>
@@ -612,10 +611,13 @@
         <footer id="anchor6" class="footer dark">
             <div class="footer-container" style="padding-top:30px;">
             	<div class="title one no-top">Kontakt</div>
-                <div class="spacer"></div>
-                <div class="title two f-bottom">Du bist an einem Fotoshooting bei mir interessiert? Schreib' mir dann eine kurze Nachricht mit einer gewünschten Fotoidee und einem Termin, an dem Du gerne das Shooting machen möchtest.</div>
+                <div class="spacer" style="margin-bottom: 50px;"></div>
+
+                <div class="foot-third hideme dontHide" style="font-size:16px; margin-right: 30px; padding-top:30px; margin-bottom: 50px;">Du bist an einem Fotoshooting bei mir interessiert? Schreib' mir dann eine kurze Nachricht mit einer gewünschten Fotoidee und einem Termin, an dem Du gerne das Shooting machen möchtest.</div>
              
-                <div style="width: 680px;" class="foot-third hideme dontHide">
+
+
+                <div class="foot-third hideme dontHide">
                 	<form method="post" id="contact" class="peThemeContactForm" action="mail.php">
                         <div id="personal" class="bay form-horizontal">
                             <div class="control-group"><!--name field-->
@@ -630,7 +632,7 @@
                             </div>
                             <div class="control-group"><!--message field-->
                                 <div class="controls">
-                                    <textarea name="message" rows="12" class="required span9" data-fieldid="2" value="Nachricht schreiben" onclick="if(this.value=='Nachricht schreiben') this.value=''" onblur="if(this.value=='') this.value='Nachricht schreiben'"></textarea>
+                                    <textarea name="message" rows="12" class="required span9" data-fieldid="2"  onclick="if(this.value=='Nachricht schreiben') this.value=''" onblur="if(this.value=='') this.value='Nachricht schreiben'">Nachricht schreiben</textarea>
                                 </div>
                             </div>
                             <div class="control-group">
