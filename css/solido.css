@@ -1171,6 +1171,17 @@ html, body {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	color: #acacac;
+/* my atributes
+	float: left;
+	width: 200px; */
+}
+
+/* my class: the content right from the icons */
+.text-with-icon {
+	float: left;
+	min-width: 500px;
+}
+
 }
 .comment span{color: #474747; font-weight: 600;}
 
@@ -1179,7 +1190,7 @@ html, body {
 	position: relative;
 	overflow: visible;
 	/* my atribute */
-	height: 300px; 
+	height: 900px; 
 }
 .tooltip {
 	display: none;
@@ -1287,18 +1298,22 @@ html, body {
 	font-size: 18px;
 	font-weight: 400;
 	text-transform: uppercase;
+		/* my attribute */
+	margin-left: 80px;
 }
 .sl-ico{
 	cursor: crosshair !important;
 	background-image: url("../img/sl-icons.png");
-	width: 110px;
-	height: 110px;
+	width: 80px;
+	height: 80px;
 	background-color: #4cddf3;
 	cursor: pointer;
 	border-radius: 50%;
 	margin: 10px auto 30px;
 	background-position: center center;
 	background-repeat: no-repeat;
+	/* my attribute */
+	margin-left: 80px;
 	
 	/*-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
