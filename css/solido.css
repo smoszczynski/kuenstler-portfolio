@@ -717,7 +717,7 @@ html, body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
-.title.one{color: #404141; font-size: 37px; letter-spacing: 5px; padding: 120px 0 30px; text-transform: uppercase;}
+.title.one{color: #404141; font-size: 30px; letter-spacing: 5px; padding: 120px 0 30px; text-transform: uppercase;}
 .title.two{color: #757575; font-size: 17px; font-family: 'Open Sans', sans-serif; width: 680px; margin: 50px auto;}
 .f-info{
 	font-weight: 400;
@@ -1175,7 +1175,7 @@ html, body {
 .comment{
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
-	color: #acacac;
+	color: #a8a8a8;
 /* my atributes
 	float: left;
 	width: 200px; */
@@ -1707,7 +1707,7 @@ html, body {
 	color: #a8a8a8;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
-	/*background: #fbfbfb;*/
+	background: #fbfbfb;
 	}
 /*.foot-third:last-child {padding-left: 0;}*/
 .controls.send-btn{
