@@ -395,6 +395,11 @@ html, body {
 	color: #a8a8a8;
 }
 
+.link2 {
+	text-decoration: none;
+	color: #4cddf3;
+}
+
 .main-title ul{
 	list-style: none;
 	padding: 0;
